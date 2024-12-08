@@ -30,9 +30,9 @@ const AuthProvider = ({ children }: { children: React.ReactNode }) => {
    
   }, [isSuccess, data, isError, dispatch]);
 
-  if (isLoading) {
-    return <Loading />;
-  }
+  // if (isLoading) {
+  //   return <Loading />;
+  // }
   
   return <>{children}</>;
 };
