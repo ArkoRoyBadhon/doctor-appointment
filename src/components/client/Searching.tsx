@@ -141,7 +141,7 @@ const Searching = ({ data, search }: any) => {
                 },
               }}
             >
-              {spec.name}
+              {spec.label}
             </Link>
           ))}
         </div>

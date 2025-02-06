@@ -59,7 +59,7 @@ const Step3 = ({handlePrevious}: {handlePrevious:()=> void}) => {
         return toast.error(res.message || "Failed to create your account");
       }
       toast.message("Successfully request for doctor account", {
-        description: "please wait for the admin confirmation",
+        description: "Admin confirmation Granted",
       });
       Cookies.set("accessToken", res.accessToken);
       Cookies.set("refreshToken", res.refreshToken);
